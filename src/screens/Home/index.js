@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from "react";
 import { Box, FlatList } from "@gluestack-ui/themed";
-import { CategoryTab, ListNote } from "../../components/kecil";
+import { CategoryTab, ListNote } from "../../components";
 
 const Home = ({ navigation }) => {
   const [userNotes, setUserNotes] = useState([
@@ -33,4 +32,3 @@ const Home = ({ navigation }) => {
 };
 
 export default Home;
-

@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from "react";
 import { Box, Text, Image, VStack, ScrollView } from "@gluestack-ui/themed";
-import { Button } from "../../components/kecil";
+import { Button } from "../../components";
 
 const Profile = ({ navigation }) => {
   return (
@@ -48,4 +47,3 @@ const Profile = ({ navigation }) => {
 };
 
 export default Profile;
-

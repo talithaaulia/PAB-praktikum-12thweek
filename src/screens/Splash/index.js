@@ -1,4 +1,3 @@
-
 import { StyleSheet, View } from "react-native";
 import React, { Component } from "react";
 import { IconLogo } from "../../assets";
@@ -26,4 +25,3 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
-

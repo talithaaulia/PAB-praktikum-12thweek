@@ -1,29 +1,14 @@
-
 import React, { useState, useEffect } from "react";
 import {
-  Box,
-  FormControl,
-  HStack,
-  VStack,
-  Modal,
-  ModalBackdrop,
-  ModalBody,
-  FormControlLabel,
-  Text,
-  InputField,
-  Input as GlueInput,
-  Pressable,
-  Heading,
-  ModalHeader,
-  ModalContent,
-  ModalFooter,
-  Alert,
-  AlertIcon,
-  AlertText,
-  Center,
-  ScrollView,
+  Box, FormControl, HStack,
+  VStack, Modal, ModalBackdrop,
+  ModalBody, FormControlLabel, Text,
+  InputField, Input as GlueInput,
+  Pressable, Heading,  ModalHeader,
+  ModalContent, ModalFooter, Alert,
+  AlertIcon, AlertText, Center, ScrollView,
 } from "@gluestack-ui/themed";
-import { Button, Input, Pilihan } from "../../components/kecil";
+import { Button, Input, Pilihan } from "../../components";
 
 const Add = ({ navigation }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -35,7 +20,10 @@ const Add = ({ navigation }) => {
   return (
     <ScrollView>
       <Box flex={1} backgroundColor="$white">
-        <Box shadowColor="$black" shadowOffset={{ width: 0, height: 2 }} shadowOpacity={"$25"} shadowRadius={"$3.5"} elevation={"$5"} backgroundColor="$white" borderRadius={"$md"} mt={"$8"} mx={"$3"} px={"$3"} pt={"$2"}>
+        <Box shadowColor="$black" shadowOffset={{ width: 0, height: 2 }} shadowOpacity={"$25"} 
+          shadowRadius={"$3.5"} elevation={"$5"} backgroundColor="$white" 
+          borderRadius={"$md"} mt={"$8"} mx={"$3"} px={"$3"} pt={"$2"}
+        >
           <Heading size="2xl" color="$black">
             Add New Task!
           </Heading>

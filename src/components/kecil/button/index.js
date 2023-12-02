@@ -10,3 +10,4 @@ const Button = ({ padding, title, onPress, fontSize }) => {
 };
 
 export default Button;
+

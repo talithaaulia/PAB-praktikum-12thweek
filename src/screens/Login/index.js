@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import {
   Alert,
@@ -10,7 +9,8 @@ import {
   Modal,
   ModalBackdrop,
 } from "@gluestack-ui/themed";
-import { Input, Button } from "../../components/kecil";
+import { Input, Button } from "../../components";
+
 
 const Login = ({ navigation }) => {
   return (
@@ -76,5 +76,5 @@ const Login = ({ navigation }) => {
   );
 };
 
-export default Login;
 
+export default Login;

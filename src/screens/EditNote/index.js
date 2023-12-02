@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Alert, Box, Heading, Text, FormControl, Modal, ModalBackdrop, AlertText, Fab, FabLabel, FabIcon, ArrowLeftIcon, ScrollView } from "@gluestack-ui/themed";
-import { Button, Input, Pilihan } from "../../components/kecil";
+import { Button, Input, Pilihan } from "../../components";
 import BackFAB from "../../components/kecil/back_fab";
 
 const EditNote = ({ route, navigation }) => {
@@ -34,4 +34,3 @@ const EditNote = ({ route, navigation }) => {
 };
 
 export default EditNote;
-

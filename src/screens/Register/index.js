@@ -8,7 +8,7 @@ import {
   ModalBackdrop,
   AlertText,
 } from "@gluestack-ui/themed";
-import { Input, Button } from "../../components/kecil";
+import { Input, Button } from "../../components";
 import BackFAB from "../../components/kecil/back_fab";
 
 const Register = ({ navigation }) => {
