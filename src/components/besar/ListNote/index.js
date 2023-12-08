@@ -4,11 +4,13 @@ import { Text, Pressable, Box,
 } from "@gluestack-ui/themed";
 import { IconDelete, IconEdit } from "../../../assets";
 import { useNavigation } from "@react-navigation/native";
+import { deleteNote } from "../../../actions/AuthAction";
 
 const ListNote = ({ judul, isi, tanggal, status, category, noteId }) => {
   const navigation = useNavigation();
 
   const handleEditClick = () => {
+    deleteNote(noteId);
     navigation.navigate("EditNote", {
       judul,
       isi,
